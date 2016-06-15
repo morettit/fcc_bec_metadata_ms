@@ -1,0 +1,31 @@
+{
+  "name": "metadata-ms",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Backend Certification Project",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morettit/fcc_bec_metadata_ms.git"
+  },
+  "author": "Tobia Moretti",
+  "dependencies": {
+    "async": "~0.2.8",
+    "ejs": "^2.4.2",
+    "express": "^3.2.6",
+    "multer": "^1.1.0",
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "npm",
+    "metadata",
+    "fcc"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morettit/fcc_bec_metadata_ms/issues"
+  },
+  "homepage": "https://github.com/morettit/fcc_bec_metadata_ms#readme"
+}

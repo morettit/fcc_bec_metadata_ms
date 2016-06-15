@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>File Metadata Microservice</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="header">
+               FreeCodeCamp API Basejump: File Metadata Microservice
+            </h1>
+            <blockquote>
+                User stories:
+                <ul>1) I can submit a FormData object that includes a file upload.</ul>
+                <ul>2) When I submit something, I will receive the file size in bytes within the JSON response.</ul>
+                
+            </blockquote>
+            <h3>Usage:</h3>
+            <br><code>https://fcc-bec-metadata-ms.herokuapp.com/</code><br>
+            <h4>Insert your file in the form below</h4>
+            <div>
+                <form enctype="multipart/form-data" method="post" action="/upload" name="fileinfo" target="myiframe">
+                        <label for="MyFile">File to stash:
+                            <input type="file" name="MyFile" style="font-weight:normal;font-style:oblique;" class="form-control-file" required/>
+                        </label>
+                        <button type="submit" class="btn-primary-outline">Stash the file!</button>
+                </form>
+            </div>
+            <h3>Output:</h3>
+                <iframe id="myiframe" name="myiframe" width="800px" frameborder="0" src=""></iframe>
+            <h5 align='right'>
+                </br></br></br>
+                <i>Frontend</i> <b><ins>based</ins></b> on 
+                    <span align='right' style="font-variant:small-caps">
+                        FreeCodeCamp <small>HTML TEMPLATE</small>
+                    </span></br>
+                <i>Backend</i> <b><ins>coded</ins></b> by 
+                    <span align='right' style="font-variant:small-caps">
+                        Tobia Moretti
+                    </span>
+                    (<a href="https://github.com/morettit/">morettit</a>)
+            </h5>
+        </div>
+    </body>
+</html>
